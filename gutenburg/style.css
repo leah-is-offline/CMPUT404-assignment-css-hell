@@ -1,0 +1,218 @@
+/**************************************************************
+[ ] Theme paragraphs with CSS
+[ ] Theme header tags with CSS
+[ ] Theme images and images captions with CSS
+[ ] Change the colour scheme to something aesthetically pleasing
+***************************************************************/
+
+body {
+    background-color: #695415 ;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+h1,h2,h3,h4,h5,h6 {
+    color: #e3b989;
+    text-align: center;
+    margin-left: 15%; 
+    margin-right: 15%; 
+  }
+
+p {
+    color: #000000;
+    margin-top: .25em; 
+    margin-bottom: .25em;
+    text-align: center
+  }
+
+
+/*****BELOW ARE COMBINATIONS OF CSS FROM EXISTING GUTENBURG DOCS******/
+
+hr { width: 50%; text-align: center;margin-top: 1em; margin-bottom: 1em; margin-left: auto; margin-right: auto; clear: both;}
+hr.tb   {width: 45%; margin-left: 27.5%; margin-right: 27.5%; }
+hr.chap {width: 65%; margin-left: 17.5%; margin-right: 17.5%; }
+hr.full {width: 95%; margin-left: 2.5%; margin-right: 2.5%; }
+hr.r5   {width: 5%; margin-top: 1em; margin-bottom: 1em; margin-left: 47.5%; margin-right: 47.5%; }
+hr.r25  {width: 25%; margin-top: 3em; margin-bottom: 3em; margin-left: 37.5%; margin-right: 37.5%; }
+hr.r20  {width: 20%;}
+
+table {margin-left: auto; margin-right: auto; border-collapse: collapse;}
+
+
+.blockquot { margin-left: 5%; margin-right: 10%;font-style: italic; margin-left: 10%}
+
+.foot { margin-left: 20%; margin-right: 20%; text-align: justify; text-indent: -3em; font-size: 90%; }
+.footnote         {margin-left: 10%; margin-right: 10%; font-size: 0.9em;}
+.footnote .label  {position: absolute; right: 84%; text-align: right;}
+.fnanchor         {vertical-align: super; font-size: .8em; text-decoration: none;}
+
+.transnote {background-color: #E6E6FA;
+    color: black;
+    font-size:smaller;
+    padding: 1em;
+    margin-bottom:5em;
+    font-family:sans-serif, serif; }
+
+.pagenum   {display:inline; font-size: small; font-style:normal;
+            margin: 0; padding: 0; position: absolute; right: 1%;
+            text-align: right;}
+
+.pagebreak {page-break-before: always;}
+
+.smcap    {font-variant: small-caps;}
+
+
+.indent5   { margin-left: 5%;}
+.indent10  { margin-left: 10%;}
+.indent15  { margin-left: 15%;}
+.indent20  { margin-left: 20%;}
+.indent30  { margin-left: 30%;}
+
+
+.figleft {
+    float: left;
+    clear: left;
+    margin-left: 0;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    margin-right: 1em;
+    padding: 0;
+    text-align: center;
+    }
+
+/**
+.figright {
+    float: right;
+    clear: right;
+    margin-left: 1em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    margin-right: 1em;
+    padding: 0;
+    text-align: center;
+    }**/
+
+
+.figcenter   {
+            margin: auto;
+            text-align: center;
+            }
+
+
+
+.tdl      {text-align: left;}
+.tdr      {text-align: right;}
+
+
+.caption1, .caption2, .caption3, .caption4 {font-weight: bold;
+                font-size: 1.50em; 
+                margin-bottom: 1em;
+                margin-top: 1em; 
+                text-align: center;
+                text-indent: 0;}
+
+.sidenotes {
+                    width: 20%;
+                    padding-bottom: 0.3em;
+                    padding-top: 0em;
+                    padding-left: 0em;
+                    padding-right: 0.5em;
+                    margin-left: 1em;
+                    float: center;
+                    clear: left;
+                    margin-top: 1em;
+                    font-size: small;
+                    color: black;
+                    border-left: dashed thin;
+                  
+                    text-align: left;
+                    text-indent: 0;
+                    font-weight: bold; font-style: italic;
+                    background: #eeeeee;
+                    }
+
+
+
+/******BELOW IS CSS RELATED TO ENTITIES IN 1.html********/
+
+.mynote    {background-color: #DDE; color: #000; padding: .5em; margin-left: 10%; margin-right: 10%; font-family: sans-serif; font-size: 95%;}
+
+.toc       { margin-left: 10%; margin-bottom: .75em;}
+
+.toc2      { margin-left: 20%;}
+
+
+div.middle { margin-left: 20%; margin-right: 20%; text-align: justify; }
+
+span.dropcap  { float: left; margin: 0 0.1em 0 0; line-height: 1 }
+
+pre        { font-style: italic; font-size: 90%; margin-left: 10%;}
+
+
+/******BELOW IS CSS RELATED TO ENTITIES IN 2.html********/
+
+
+.not_visible {visibility: hidden;}
+
+.space-above1 {margin-top: 1em;}
+.space-above2 {margin-top: 2em;}
+.space-above3 {margin-top: 3em;}
+
+.space-below1 {margin-bottom: 1em;}
+.space-below2 {margin-bottom: 2em;}
+.space-below3 {margin-bottom: 3em;}
+
+
+
+.bbox     {border: solid medium; padding: 0.5em;}
+.center   {text-align: center;}
+
+/****
+DELETE THE DROP CAP IMAGES
+img {max-width: 100%; height: auto;}
+
+img.drop-cap { float: left;
+             margin: 0 0.5em 0 0; }
+
+p.drop-cap:first-letter { color: white;
+                        visibility: hidden;
+                        margin-left: -0.6em; }
+
+@media handheld
+{
+img.drop-cap  { display: none; }
+
+p.drop-cap:first-letter { color: inherit;
+                        visibility: visible;
+                        margin-left: 0; }
+}
+**/
+
+ /******BELOW IS CSS RELATED TO ENTITIES IN 3.html********/
+
+
+.bdb    {border-bottom: solid #000 1px;}
+.bdl    {border-left: solid #000 1px;}
+.bdr    {border-right: solid #000 1px;}
+.bbox   {border: solid #000 1px;}
+.bbox2  {border: solid #000 1px; padding: 2em;}
+.row1   {background-color: #f8f8f8;}
+
+.center   {text-align: center; margin:0; text-indent: 0;}
+.vbot     {vertical-align: bottom;}
+
+.smaller  {font-size: 0.8em;}
+
+.tdr2     {text-align: right; padding-right:1em;}
+.p0       {text-indent: 0;}
+
+.pmt2     {margin-top: 2em;}
+.pmt4     {margin-top: 4em;}
+.pmb2     {margin-bottom: 2em;}
+.pmb4     {margin-bottom: 4em;}
+
+.drop     {float: left; padding-right: 2px; font-size: 2.5em;}
+.hidden   {display: none;}
+
+
+
