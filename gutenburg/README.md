@@ -5,7 +5,7 @@ Title: The Vision of Hell, Complete
 Author: Dante Alighieri  
     
 the images2 folder contains the images for 2.html  
-scraped from: http://www.gutenberg.org/files/46514/46514-h/46514-h.htm
+scraped from: http://www.gutenberg.org/files/46514/46514-h/46514-h.htm  
 Title: Our Edible Toadstools and Mushrooms and How to Distinguish Them
        A Selection of Thirty Native Food Varieties Easily
               Recognizable by their Marked Individualities, with Simple
