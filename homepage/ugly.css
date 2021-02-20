@@ -1,14 +1,3 @@
 body {
-    background-image: url("https://media2.giphy.com/media/RkhMKpIYLT9sukfuXg/giphy.gif?cid=ecf05e4715tsorjmm34lwjghb00v2sfs8gz7ozb4edh5ian2&rid=giphy.gif");
+    background-image: url(images/space.jpg);
     }
-
-h1{
-    border: 5px solid red;
-    font-family: fantasy;
-    color: cyan;
-}
-
-p{
-    font-family: fantasy;
-    color: cyan;
-}

@@ -1,0 +1,199 @@
+body{
+    background-color: black;
+}
+
+h1{
+    color: black;
+}
+
+p{
+    color: rgb(71, 56, 56);
+  }
+
+img {
+    max-width: 100%;
+}
+
+
+hr#top_wood_bar{
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    height: 2em;
+    background-image: url("images/wood.jpg");
+    margin-bottom: 0;
+    border-bottom: solid;
+}
+
+.container{
+    margin-right: 0.5em;
+    margin-left: 0.5em;
+    margin-bottom: 0em;
+    margin-top: 0em;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    background: radial-gradient( #bcc4cc,  #1377b2);
+}
+
+.center_title{
+    font-size:3em;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    color: white;
+    line-height: 150px;
+    height: 150px;
+}
+
+
+.nav-bar-top{
+    margin-right: 0.5em;
+    margin-left: 0.5em;
+    margin-bottom: 0em;
+    margin-top: 0em;
+    height: 3em;
+    text-align:center;
+    background: linear-gradient( to left top, #8d8484, #333334);
+}
+
+.number-text{
+    color: darkgoldenrod;
+}
+
+.nav-bar-bottom{
+    margin-right: 0.5em;
+    margin-left: 0.5em;
+    margin-bottom: 0;
+    margin-top: 0;
+    height: 3em;
+    text-align:center;
+    background-image:url("images/wood.jpg") ;
+}
+
+
+
+
+/*CITATION: https://stackoverflow.com/a/63137057*/
+li{
+    display: inline-block;
+}
+
+ul {
+    margin-top: 0;
+    
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.5em;
+  }
+
+a:visited{
+    color: white;
+}
+
+a:hover{
+      color: mediumturquoise;
+}
+
+.white-backdrop{
+    min-height: 100%;
+    margin-right: 0.5em;
+    margin-left: 0.5em;
+    margin-top: 0;
+    margin-bottom: 0;
+    background-color: white;
+    position: relative;
+}
+
+
+/**for the follow div containers
+between elements = 20px left padding (in the rightmost element in div container style)
+element closest to left side = 30px left padding
+element closest to right side = 30px right padding
+**/
+
+/***ABOUT ME*****/
+.about_me_div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  
+.about_me_pic {
+    flex-basis: 70%;
+    margin-top: 10px;
+    padding-left: 30px;
+}
+  
+.about_me_body{
+    font-size: 25px;
+    margin-top: 10px;
+    padding-left: 20px;
+    padding-right: 30px;
+}
+
+
+/***PORTFOLIO*****/
+.portfolio_div{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.portfolio_body{
+    margin-top: 10px;
+    font-size: 25px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+
+/***EDUCATION/WORK EXPERIENCE*****/
+.education_div{
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.education_pic{
+    margin-top: 10px;
+    flex-basis: 50%;
+    padding-left: 20px;
+    padding-right: 30px;
+}
+
+.education_body{
+    margin-top: 10px;
+    padding-left: 30px;
+    font-size: 25px;
+}
+
+/**SIDE BAR**/
+.side_bar{
+    display: flex;
+    float: right;
+    text-align: left;
+    margin-right: 1em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    border: 8em solid #efefef;
+    background-color:#efefef;
+    height: 60em;
+}
+
+.programming{
+    font-style: italic;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
