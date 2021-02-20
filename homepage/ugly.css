@@ -1,3 +1,224 @@
 body {
     background-image: url(images/space.jpg);
+    font-family: cursive;
     }
+
+h1{
+    color: #ffd20f;
+}
+
+p{
+    color: #e8a3c0;
+}
+
+/**CITATION: https://www.w3schools.com/css/css_display_visibility.asp**/
+img {
+    display:none
+}
+
+.center_title{
+    font-size:5em;
+    text-align: center;
+    color:  #0eacd3;
+    line-height: 150px;
+}
+
+.nav-bar-top{
+    margin-right: 0.5em;
+    margin-left: 0.5em;
+    margin-bottom: 0em;
+    margin-top: 0em;
+    height: 4em;
+    text-align:center;
+    background-color: #ff3334;
+}
+
+/*
+.number-text{
+    color: darkgoldenrod;
+}*/
+
+.nav-bar-bottom{
+    margin-right: 0.5em;
+    margin-left: 0.5em;
+    margin-bottom: 0;
+    margin-top: 0;
+    height: 4em;
+    text-align:center;
+    background-color:darkgoldenrod;
+}
+
+
+/**CITATION: https://stackoverflow.com/a/63137057**/
+li{
+    display: inline-block;
+}
+
+ul {
+    margin-top: 0;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.5em;
+  }
+
+a:visited{
+    color: white;
+}
+
+a:hover{
+      color: mediumturquoise;
+}
+
+.about_me_div{
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: auto;
+    text-align: center;
+}
+
+.about_me_body{
+    font-size: 25px;
+    margin-top: 40px;
+    padding-left: 20px;
+    padding-right: 30px;
+}
+
+
+
+.portfolio_div{
+    flex-direction: row;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    overflow: auto;
+    text-align: center;
+}
+
+.portfolio_body{
+    margin-top: 40px;
+    font-size: 25px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.education_div{
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: auto;
+    text-align: center;
+}
+
+.education_body{
+    margin-bottom: 6em;
+    padding-left: 30px;
+    font-size: 18px;
+    text-align: center;
+}
+
+
+.side_bar{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: auto;
+    text-align: center;
+    font-size: 18px;
+}
+
+.programming{
+    font-style: italic;
+    color: #ea3337;
+}
+
+a.contact_links{
+    color: #ea3337;
+}
+
+
+/**
+.side_bar{
+    display: flex;
+    float: right;
+    text-align: left;
+    margin-right: 1em;
+    margin-top: 1em;
+    height: 60em;
+    flex-direction: column;
+
+    border: 8em solid #efefef;
+    background-color:#efefef;
+    height: 94em;
+    overflow: auto;   
+}
+
+.side_bar_text{
+    font-size: 20px;
+    text-align: left;
+}
+
+
+   
+.container{
+        margin-right: 0.5em;
+        margin-left: 0.5em;
+        margin-bottom: 0em;
+        margin-top: 0em;
+        padding-bottom: 0;
+        background: radial-gradient( #bcc4cc,  #1377b2);
+    }
+    
+    
+    .white-backdrop{
+        min-height: 100%;
+        margin-right: 0.5em;
+        margin-left: 0.5em;
+        margin-top: 0;
+        margin-bottom: 0;
+        background-color: white;
+        position: relative;
+    }
+    
+
+    .about_me_pic {
+        flex-basis: 70%;
+        margin-top: 40px;
+        padding-left: 30px;
+    }
+      
+
+    .education_pic{
+        margin-top: 40px;
+        flex-basis: 50%;
+        padding-left: 40px;
+        padding-right: 30px;
+        margin-bottom: 8em;
+    }
+
+ **/
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
