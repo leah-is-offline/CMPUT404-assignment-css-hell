@@ -1,47 +1,157 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>the ugly</title>
-    <link rel="stylesheet" type="text/css" href="ugly.css" />
-</head>
-<body>
-    <h1>
-        Leah Copelands Homepage
-    </h1>
-    <!--
-    <div class="figcenter">
-        <img src="images/" width="" height="" />
-    </div>
-    -->
+  <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Leahs Bad Homepage</title>
+      <link rel="stylesheet" type="text/css" href="ugly.css"/>
+  </head>
 
-    <!--
-    <div class = "sidebar">
-        </p>
-            my proffesional history
-        </p>
+  <body>
+  
+    <hr id = "top_wood_bar"/>
+
+    <!--https://stackoverflow.com/questions/14142378/how-can-i-fill-a-div-with-an-image-while-keeping-it-proportional-->
+    <div class= "container">
+      <div class = "center_title">Leah Copeland</div>
     </div>
-    -->
+    
+    <!--HEADER-->
+    <div class = "nav-bar-top">
+      <ul> 
+          <li><a href="#header">HOME</a></li>
+          <li><a href="#education">EDUCATION</a></li>
+          <li><a href="#portfolio">PORTFOLIO</a></li>
+          <li><a href="#work_experience">WORK EXPERIENCE</a></li>
+          <li><a href="#contact">CONTACT</a></li>
+          <li class = "number-text">780-915-3550</li>
+      </ul>
+    </div>
 
 
-    <!--
-    <div class = "sidebar">
-        </p>
-            some important points abaout me
-        </p>
-    </div>
-    -->
+    <div class = white-backdrop>
 
-    <!--
-    <div class = "">
-        </p>
-            What you can do for a potential employer/what you have to offer
-        </p>
-    </div>
-    -->
+      <!--SIDE BAR-->
+      <div class="side_bar">
+        <div class = "side_bar_text">
+          <h1 class = "programming">Programming</br>Languages</br></h1>
+          <p>
+            o	Java<br/>
+            o	JavaScript<br/>
+            o	Python<br/>
+            o css<br/>
+            o HTML <br/>
+            o SQL/SQLite <br/>
+            o C/C++/C# <br/>
+            o VBA<br/>
+          </p>
+        </div>
+
+        <div class = "external links">
+          <h1 class = "programming" id = "contact"></br><br/>CONTACT</h1><br/>
+          <p>
+            Phone<br/>
+            780-915-3550<br/><br/>
+            
+            Email<br/>
+            primary: Copeland@ualberta.ca<br/>
+            alt: leahisoffline@gmail.com<br/><br/>
+            
+            
+            Github<br/>
+            <a href = "https://github.com/leah-is-offline" class = "contact_links">https://github.com/leah-is-offline</a><br/><br/>
+            
+            Alternative homepage (missing that Boyds Toast influence)<br/>
+            <a href = "https://github.com/leah-is-offline/myhomepage.ca" class = "contact_links">https://github.com/leah-is-offline/myhomepage.ca</a><br/>
+
+          </p>
+        </div>
+      </div>
+
+
+      <!--ABOUT ME-->
+      <div class = "about_me_div">
+        <div class = "about_me_pic">
+          <img src="images/Leah.jpg">
+        </div>
+        <div class = "about_me_body">
+          <h1 id="about_me">ABOUT ME</h1>
+          <p>
+                Hello. My name is Leah. Welcome to my homepage!<br/>
+                I am in my third year of studying computer science and psychology at the University of Alberta. 
+                I am interested in how software developers can take further steps to ensure a users data privacy 
+                and how this impacts a users experience.<br/><br/>
+                Besides developing software I enjoy fixing and playing instruments, and everything outdoors.
+          </p>
+        </div>
+      </div>
+
+      <!--PORTFOLIO/PROJECTS-->
+      <div class = "portfolio_div">
+        <div class = "portfolio_body">
+          <h1 id="portfolio">PORTFOLIO</h1>
+          <p>
+                  Jul 2020 - Jan 2021       Python Automation at Alberta Company<br/>
+                                            o	Analyzed and compared what libraries were best suited to complete the required task (evaluate maintainability, portability, and reliability of libraries).<br/>
+                                            o	Worked with non-native python libraries such as requests, selenium, bs4.<br/>
+                                            o	Worked with API's such as VirusTotal, ABUSEIPDB, MAPI, and URLScan.<br/>
+                                            o	Developed detailed presentation package outlining the proposed solution and presented to the Director of  Information Security and the security team.<br/>
+                                            o	Discussed script optimization, increase of scope, and deployment strategy.<br/>
+                                            o	Learned about information security and creative ways to combat phishing practices.<br/><br/>
+                  Apr 2020 - May 2020       Virtual Hackathon<br/>
+                                            o	Developed a frogger-style game for PC and Android mobile.<br/>
+                                            o	Worked in a team using GitHub as version control.<br/>
+                                            o	Worked under a mentor to obtain guidance and follow project recommendations.<br/>
+                                            o	Programmed in C# and used the Unity development platform.<br/><br/>
+                  Jan 2020 - Apr 2020       Android Application development at the University of Alberta<br/>
+                                            o	Worked in a team to develop a ride sharing application for Android mobile.<br/>
+                                            o	Used GitHub as version control.<br/>
+                                            o	Worked in a mock client - developer setting.<br/>
+                                            o	Developed tests using JUnit and Robotium and deployed these tests using Travis CI.<br/>
+                                            o	Integrated google maps services using Google Cloud Platform & API's<br/>
+                                            o	Followed Agile and iterative software development practices.<br/>
+                                            o	Developed a user guide, design mock-ups, performed object-oriented analysis, and created a demonstration video.<br/><br/>
+          </p>
+        </div>
+      </div>
     
 
-</body>
+      <!--EDUCATION-->
+      <div class = "education_div">
+        <div class = "education_body">
+          <h1 id="education">EDUCATION</h1>
+          <p>
+              University of Alberta<br/>
+              Bachelors of Computing Science/Psychology<br/>
+              2016-2021<br/><br/>
+          </p>
+
+          <h1 id="work_experience">WORK EXPERIENCE</h1>
+          <p>
+          Jan 2020 — Present       Event Coordinator at KMG Events<br/>
+          Apr 2018 — Mar 2020      Receptionist at  Edmonton BMW and MINI<br/>
+          Nov 2016 — Oct 2018      Banquet Server at The Derrick Club<br/>
+          </p>
+        </div>
+        <div class = "education_pic">
+          <img src="images/uni.jpg">
+        </div>
+      </div>
+
+    <!--END WHITE BACKDROP-->
+    </div>
+
+    <!--FOOTER/CONTACT-->
+    <div class = "nav-bar-bottom">
+      <ul> 
+        <li><a href="#header">HOME</a></li>
+        <li><a href="#education">EDUCATION</a></li>
+        <li><a href="#portfolio">PORTFOLIO</a></li>
+        <li><a href="#work_experience">WORK EXPERIENCE</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+      </ul>
+    </div>
+
+  </body>
 </html>
