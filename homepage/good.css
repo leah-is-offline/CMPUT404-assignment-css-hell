@@ -112,13 +112,14 @@ a:hover{
 }
   
 .about_me_pic {
-    flex-basis: 70%;
+    flex-basis: 100%;
     margin-top: 40px;
-    padding-left: 30px;
+    margin-left: 10px;
+    margin-right: 20px;
 }
   
 .about_me_body{
-    font-size: 25px;
+    font-size: 15px;
     margin-top: 40px;
     padding-left: 20px;
     padding-right: 30px;
@@ -136,9 +137,8 @@ a:hover{
 
 .portfolio_body{
     margin-top: 40px;
-    font-size: 25px;
-    padding-left: 30px;
-    padding-right: 30px;
+    font-size: 20px;
+    margin-left: 10px;
 }
 
 
@@ -146,23 +146,22 @@ a:hover{
 .education_div{
     flex-direction: row;
     display: flex;
-    align-items: center;
-    justify-content: center;
     overflow: auto;
 }
 
 .education_pic{
     margin-top: 40px;
-    flex-basis: 50%;
+    flex-basis: 80%;
     padding-left: 40px;
     padding-right: 30px;
     margin-bottom: 8em;
+    margin-right: 1em;
 }
 
 .education_body{
+    margin-left: 15px;
     margin-bottom: 6em;
-    padding-left: 30px;
-    font-size: 18px;
+    font-size: 15px;
 }
 
 /**SIDE BAR**/
@@ -172,14 +171,12 @@ a:hover{
     text-align: left;
     margin-right: 1em;
     margin-top: 1em;
-    height: 60em;
     flex-direction: column;
-
     border: 8em solid #efefef;
     background-color:#efefef;
-    height: 94em;
+    height: 63em;
     overflow: auto;
-    
+    margin-bottom: 3em;
 }
 
 .side_bar_text{
