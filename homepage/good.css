@@ -14,6 +14,10 @@ img {
     max-width: 100%;
 }
 
+.showimages{
+    display: none;
+}
+
 
 hr#top_wood_bar{
     margin-left: 0.5em;
