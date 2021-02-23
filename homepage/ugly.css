@@ -1,77 +1,97 @@
-body {
-    background-image: url(images/space.jpg);
+body{
+    background-color: black;
     font-family: cursive;
-    }
+}
 
 h1{
-    color: #ffd20f;
+    color: black;
+    font-family: cursive;
 }
 
 p{
-    color: #e8a3c0;
-}
+    font-family: cursive;
+  }
 
-hr#top_wood_bar{
-    display:none;
-}
-
-/**CITATION: https://www.w3schools.com/css/css_display_visibility.asp**/
-.hideimage {
-    display:none;
+img {
+    max-width: 100%;
 }
 
 .showimages{
+    display: none;
+}
+
+.side_bar_image{
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-}
-.show_image{
-    width: 30%;
-    height: 30%;
-    margin-bottom: 3em;
-    border-radius: 10px;
-    border: 1em solid;
-    border-image-source: linear-gradient( rgb(0, 14, 143), rgb(224, 9, 110));
-    border-image-slice: 1;
+    width: 100%;
+    height: 100%;
+    float: right;
+    align-content: right;
+    overflow: auto;
 }
 
-.center_title{
-    font-size:5em;
-    text-align: center;
-    color:  #0eacd3;
-    line-height: 150px;
+
+hr#top_wood_bar{
+    display: none;
 }
 
-.nav-bar-top{
+.container{
+
     margin-right: 0.5em;
     margin-left: 0.5em;
     margin-bottom: 0em;
     margin-top: 0em;
-    height: 4em;
-    text-align:center;
-    background-color: #ff3334;
+    align-content: center;
+    background-image: url("images/bluesky.jpg");
 }
 
-/*
+.center_title{
+    font-size:5em;
+    font-weight: bold;
+    font-family: cursive;
+    text-align: center;
+    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+    -webkit-background-clip: text;
+    color: transparent;
+    line-height: 150px;
+    height: 150px;
+}
+
+
+.nav-bar-top{
+    margin-right: 8em;
+    margin-left: 8em;
+    margin-top: 0em;
+    height: 3.5em;
+    justify-content: space-around;
+    text-align:center;
+    background: linear-gradient( to left top, #ffcc00, darkgoldenrod);
+}
+
 .number-text{
     color: darkgoldenrod;
-}*/
+    display: none;
+}
 
 .nav-bar-bottom{
+    display: none;
     margin-right: 0.5em;
     margin-left: 0.5em;
     margin-bottom: 0;
     margin-top: 0;
-    height: 4em;
+    height: 3em;
     text-align:center;
-    background-color:darkgoldenrod;
+    background-image:url("images/wood.jpg") ;
 }
 
 
-/**CITATION: https://stackoverflow.com/a/63137057**/
+
+/*CITATION: https://stackoverflow.com/a/63137057*/
 li{
     display: inline-block;
+    
+}
+li:hover{
+    border:5px solid black;
 }
 
 ul {
@@ -82,163 +102,149 @@ ul {
   }
 
 a:visited{
+    color:black;
+}
+
+
+
+.white-backdrop{
+    min-height: 100%;
+    margin-right: 0.5em;
+    margin-left: 0.5em;
+    margin-top: 0;
+    margin-bottom: 0;
+    background-color: white;
+    position: relative;
+}
+
+.miffles{
+    margin-left: 20px;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 30em;
+    color: black;
+    border: 8px solid palevioletred;
+    background-color: palevioletred;
+    border-radius: 10px;
+}
+.ps{
     color: white;
 }
 
-a:hover{
-      color: mediumturquoise;
-}
-
+/***ABOUT ME*****/
+/**CITATION: https://www.xspdf.com/resolution/60121056.html**/
 .about_me_div{
     flex-direction: row;
     display: flex;
     align-items: center;
     justify-content: center;
     overflow: auto;
-    text-align: center;
 }
-
+  
+.about_me_pic {
+    flex-basis: 100%;
+    margin-top: 40px;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+  
 .about_me_body{
-    font-size: 25px;
+    font-size: 15px;
     margin-top: 40px;
     padding-left: 20px;
     padding-right: 30px;
 }
 
 
-
+/***PORTFOLIO*****/
 .portfolio_div{
     flex-direction: row;
     display: flex;
     align-items:center;
     justify-content: center;
     overflow: auto;
-    text-align: center;
 }
 
 .portfolio_body{
     margin-top: 40px;
-    font-size: 25px;
-    padding-left: 30px;
-    padding-right: 30px;
+    font-size: 20px;
+    margin-left: 10px;
 }
 
+
+/***EDUCATION/WORK EXPERIENCE*****/
 .education_div{
     flex-direction: row;
     display: flex;
-    align-items: center;
-    justify-content: center;
     overflow: auto;
-    text-align: center;
+}
+
+.education_pic{
+    margin-top: 40px;
+    flex-basis: 80%;
+    padding-left: 40px;
+    padding-right: 30px;
+    margin-bottom: 8em;
+    margin-right: 1em;
 }
 
 .education_body{
-    margin-bottom: 3em;
-    padding-left: 30px;
-    font-size: 18px;
-    text-align: center;
+    margin-left: 15px;
+    margin-bottom: 6em;
+    font-size: 15px;
 }
 
-
+/**SIDE BAR**/
 .side_bar{
-    flex-direction: column;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    overflow: auto;
-    text-align: center;
-    font-size: 18px;
-}
-
-.programming{
-    font-style: italic;
-    color: #ea3337;
-}
-
-a.contact_links{
-    color: #ea3337;
-}
-
-
-/**
-.side_bar{
+ 
     display: flex;
     float: right;
     text-align: left;
     margin-right: 1em;
     margin-top: 1em;
-    height: 60em;
     flex-direction: column;
-
-    border: 8em solid #efefef;
-    background-color:#efefef;
-    height: 94em;
-    overflow: auto;   
+    border: 5em solid #ffcc00;
+    background-color:#ffcc00;
+    margin-bottom: 3em;
+    width: 15em;
+    height: 90em;
 }
 
 .side_bar_text{
     font-size: 20px;
     text-align: left;
+    color:midnightblue;
+}
+
+.programming{
+    font-style: italic;
+    color: darkblue;
+}
+
+a.contact_links{
+    color : #00f; 
+
 }
 
 
-   
-.container{
-        margin-right: 0.5em;
-        margin-left: 0.5em;
-        margin-bottom: 0em;
-        margin-top: 0em;
-        padding-bottom: 0;
-        background: radial-gradient( #bcc4cc,  #1377b2);
-    }
-    
-    
-    .white-backdrop{
-        min-height: 100%;
-        margin-right: 0.5em;
-        margin-left: 0.5em;
-        margin-top: 0;
-        margin-bottom: 0;
-        background-color: white;
-        position: relative;
-    }
-    
 
-    .about_me_pic {
-        flex-basis: 70%;
-        margin-top: 40px;
-        padding-left: 30px;
-    }
-      
 
-    .education_pic{
-        margin-top: 40px;
-        flex-basis: 50%;
-        padding-left: 40px;
-        padding-right: 30px;
-        margin-bottom: 8em;
-    }
 
- **/
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

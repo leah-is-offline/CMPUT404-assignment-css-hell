@@ -18,17 +18,26 @@ img {
     display: none;
 }
 
+.miffles{
+    display: none;
+}
+
+.side_bar_image{
+    display: none;
+}
+
 
 hr#top_wood_bar{
-    margin-left: 0.5em;
-    margin-right: 0.5em;
+    margin-left: 0em;
+    margin-right: 0em;
     height: 2em;
     background-image: url("images/wood.jpg");
     margin-bottom: 0;
-    border-bottom: solid;
+    border: none;
 }
 
 .container{
+    
     margin-right: 0.5em;
     margin-left: 0.5em;
     margin-bottom: 0em;
@@ -48,8 +57,8 @@ hr#top_wood_bar{
 
 
 .nav-bar-top{
-    margin-right: 0.5em;
-    margin-left: 0.5em;
+    margin-right: 0em;
+    margin-left: 0em;
     margin-bottom: 0em;
     margin-top: 0em;
     height: 3.5em;
